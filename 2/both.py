@@ -1,6 +1,4 @@
-from collections import Counter
-
-def get_lists() -> tuple[list[list[int]]]:
+def get_lists() -> list[list[int]]:
     with open("in.txt") as file:
         lines = file.read().split("\n")
 
